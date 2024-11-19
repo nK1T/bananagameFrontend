@@ -1,0 +1,64 @@
+.container {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  h1 {
+    font-size: 3em;
+    color: white;
+    text-transform: uppercase;
+    animation: fadeIn 2s ease-out;
+    /* margin-bottom: 20px; */
+  }
+  
+  img{
+    /* cursor: pointer; */
+    width: 650px;
+    animation: bounce 1s infinite alternate;
+    filter:drop-shadow(4px 4px 4px black); 
+  }
+  
+  img:hover {
+    /* transform: scale(1.1); */
+    animation: pause;
+  }
+  
+  img:active {
+    transform: scale(0.95);
+    filter:drop-shadow(4px 4px 4px black); 
+  }
+  
+  p {
+    font-size: 3rem;
+    color: #ed7400;
+    font-weight: bold;
+    animation: fadeIn 1.5s ease-out;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  

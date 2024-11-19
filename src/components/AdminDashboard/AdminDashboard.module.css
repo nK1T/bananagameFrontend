@@ -1,0 +1,62 @@
+.dashboard {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ed7400;
+  }
+  
+  .userList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .userItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .userItem:hover {
+    transform: translateY(-2px);
+  }
+  
+  .userName {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .clickCount {
+    font-size: 1rem;
+    color: #888;
+    margin-left: 10px;
+  }
+  
+  .blockButton {
+    background-color: #ed7400;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .blockButton:hover {
+    background-color: #c0392b;
+  }
+  

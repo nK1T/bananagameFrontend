@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo h1 {
+  font-size: 2em;
+  font-family: "Arial", sans-serif;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #ed7400;
+  font-weight: 600;
+  font-size: 1.2em;
+  transition: color 0.3s ease;
+}
+
+.navLink:hover {
+  transform: scale(1.1);
+}
+
+.navLink:active {
+  transform: scale(0.95);
+}
